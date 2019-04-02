@@ -8,6 +8,6 @@
 
 def select_winner(passengers)
   passengers.each {|key, value|
-    if key == "suite a" && value.initial == "A"
+    key == "suite a" && value.initial == "A"
   }
 end
